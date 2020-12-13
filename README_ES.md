@@ -1,4 +1,4 @@
-Spacer
+## Spacer
 Para la versión en ingles revisa el archivo README.md
 
 Este es un componente pequeño que hice para añadir margin a su componente hijo sin tener que escribir estilos o nombres de clase para el componente mismo y evitar hacer divs entre medio (para evitar la divits).
@@ -16,6 +16,7 @@ También tiene soporte para classes de tailwind (tailwind es genial)
 El componente acepta dos props
 
 tailwind (bool): Si es true añadira los classNames de tailwind al componente hijo en vez de props a style
+
 spacerOptions:
   * Puede recibir un numero que se transformara en el estilo margin:number;
   * Una string con 'auto' o 'px' (tailwind)
